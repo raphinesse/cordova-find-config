@@ -1,6 +1,6 @@
 {
   "name": "cordova-find-config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Find config.xml in a cordova project",
   "license": "MIT",
   "author": "Raphael von der Grün",
