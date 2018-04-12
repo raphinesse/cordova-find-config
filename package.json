@@ -3,25 +3,23 @@
   "version": "0.1.0",
   "description": "Find config.xml in a cordova project",
   "license": "MIT",
-  "repository": "raphinesse/cordova-find-config",
   "author": "Raphael von der Grün",
-  "engines": {
-    "node": ">=6"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
   "files": [
     "index.js"
   ],
-  "keywords": [
-    "cordova",
-    "find",
-    "locate",
-    "config",
-    "path",
-    "file"
-  ],
+  "repository": "raphinesse/cordova-find-config",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
   "dependencies": {
     "locate-path": "^2.0.0"
   },
@@ -29,13 +27,15 @@
     "ava": "^0.25.0",
     "xo": "^0.20.3"
   },
-  "xo": {
-    "space": 2,
-    "prettier": true
+  "engines": {
+    "node": ">=6"
   },
-  "prettier": {
-    "semi": false,
-    "singleQuote": true,
-    "trailingComma": "es5"
-  }
+  "keywords": [
+    "config",
+    "cordova",
+    "file",
+    "find",
+    "locate",
+    "path"
+  ]
 }
