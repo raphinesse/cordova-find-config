@@ -4,7 +4,7 @@ const path = require('path')
 const locatePath = require('locate-path')
 
 function candidates(rootDir) {
-  return ['config.xml', 'www/config.xml'].map(p => path.join(rootDir, p))
+  return ['', 'www'].map(p => path.join(rootDir, p, 'config.xml'))
 }
 
 module.exports = rootDir => locatePath(candidates(rootDir))
